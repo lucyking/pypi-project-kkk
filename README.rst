@@ -26,5 +26,4 @@ may be appropriate.
 ----
 
 - just for automatic lib manage
-- in setup.py:84, fillin the depend libs that using < pip install * > before,
- then run <pip install kkk>, pip will resolve these dependence automatically. 
+- in setup.py:84, fillin the depend \*libs that need < pip install * > before,then run <pip install kkk>, pip will resolve these dependence automatically. 
