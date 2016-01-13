@@ -4,8 +4,8 @@ A sample Python project
 modify from official repo 2016/01/13  
 
 - **just for automatic lib manage**
-- **in setup.py:84, fillin the depend \*libs that need < pip install * > before,then run <pip install kkk>, pip will resolve these dependence automatically. **
-- **this module just include two libs,explore weblibrary && moblielibrary for depdence detials.  **
+- __in setup.py:84, fillin the depend \*libs that need < pip install * > before,then run <pip install kkk>, pip will resolve these dependence automatically. __
+- __this module just include two libs,explore weblibrary && moblielibrary for depdence detials.  __
 
 ----
 
