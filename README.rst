@@ -1,6 +1,14 @@
 A sample Python project
 =======================
 
+modify from official repo 2016/01/13  
+
+- just for automatic lib manage
+- in setup.py:84, fillin the depend \*libs that need < pip install * > before,then run <pip install kkk>, pip will resolve these dependence automatically. 
+- this module just include two libs,explore weblibrary && moblielibrary for depdence detials.  
+
+----
+
 A sample project that exists as an aid to the `Python Packaging User Guide
 <https://packaging.python.org>`_'s `Tutorial on Packaging and Distributing
 Projects <https://packaging.python.org/en/latest/distributing.html>`_.
@@ -23,7 +31,3 @@ usage examples, etc. Generally, including the project changelog in here is not
 a good idea, although a simple "What's New" section for the most recent version
 may be appropriate.
 
-----
-
-- just for automatic lib manage
-- in setup.py:84, fillin the depend \*libs that need < pip install * > before,then run <pip install kkk>, pip will resolve these dependence automatically. 
