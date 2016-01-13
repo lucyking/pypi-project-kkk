@@ -22,3 +22,9 @@ Typical contents for this file would include an overview of the project, basic
 usage examples, etc. Generally, including the project changelog in here is not
 a good idea, although a simple "What's New" section for the most recent version
 may be appropriate.
+
+----
+
+- just for automatic lib manage
+- in setup.py:84, fillin the depend libs that using < pip install * > before,
+ then run <pip install kkk>, pip will resolve these dependence automatically. 
